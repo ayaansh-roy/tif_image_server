@@ -12,7 +12,7 @@ import io
 
 app = FastAPI()
 
-raster_path = r'D:\dev\aiml\pooja_projects\raster_image_server\CarissaMacrocarpa_files\CarissaMacrocarpa_2100_ssp370_Ensemble.tif'
+raster_path = r'CarissaMacrocarpa_2100_ssp370_Ensemble.tif'
 raster = rasterio.open(raster_path)
 
 # Prepare coordinate transformer once
